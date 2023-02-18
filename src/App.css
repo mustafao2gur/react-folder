@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(244, 212, 103);
+}
+header{
+text-align: center;
+}
+.form {
+    text-align: center;
+  
+
+}
+.form input{
+
+    padding: 0.5rem;
+    width: 25rem;
+    height: 2rem;
+    outline: none;
+    border-radius: 10px;
+
+
+}
+
+
+.card img{
+width: 200px;
+height: 300px;
+border-radius: 1rem 1rem 0 0;
+transition:all 0.5s ease-in-out;
+
+}
+.card img:hover{
+transform: scale(.95);
+cursor: pointer;
+
+}
+.ctn-img{
+    overflow: hidden;
+}
+
+.card{
+    background-color: rgb(169, 155, 155);
+    border-radius: 1rem;
+
+}
+.card-ctn p{
+    text-align: center;
+    color:rgb(250, 250, 250);
+    font-size: 1.2rem;
+    
+}
+
+.p-card{
+    display: flex;
+    background-image: url("https://besthqwallpapers.com/Uploads/25-2-2021/157404/nba-logo-blue-stone-background-nba-grunge-logo-national-basketball-association-nba-emblem.jpg");
+        background-size: cover;
+    background-position: center center;
+background-attachment: fixed;
+    height: auto;
+
+
+    justify-content: space-evenly;
+    align-items: center;
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    font-weight: 500;
+    list-style-type: none;
+    padding-left: 15px;
+    padding: 2rem;
+    font-size: 1.3rem;
+    width: 200px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1rem;
+
+    
+}
+.list li{
+    display: flex;
+    gap: 1rem;
+    width: 180px;
+    height: 100px;
+    flex: start;
+  }
+ 
+
+  @media screen and (max-width:512px){
+    .res{
+        width: fit-content;
+    }
+    header{
+        width: fit-content;
+        margin: auto;
+    }
+
+    .form input{
+     width: fit-content;
+    }
+  }
+ 
