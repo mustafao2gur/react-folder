@@ -76,6 +76,9 @@ background-attachment: fixed;
     padding: 1rem;
 }
 .list{
+    background-image: url("https://www.minhatorcida.com.br/wp-content/uploads/2022/04/15853_nba-caopa-1024x576.jpg.webp");
+    background-position: center;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     font-size: 0.9rem;
@@ -92,6 +95,7 @@ background-attachment: fixed;
     
 }
 .list li{
+
     display: flex;
     gap: 1rem;
     width: 180px;
