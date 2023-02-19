@@ -15,16 +15,17 @@ text-align: center;
   
 
 }
-.form input{
+form input{
 
     padding: 0.5rem;
     width: 25rem;
     height: 2rem;
     outline: none;
     border-radius: 10px;
-
-
 }
+
+
+
 
 
 .card img{
@@ -55,7 +56,7 @@ cursor: pointer;
     
 }
 
-.p-card{
+.dis{
     display: flex;
     background-image: url("https://besthqwallpapers.com/Uploads/25-2-2021/157404/nba-logo-blue-stone-background-nba-grunge-logo-national-basketball-association-nba-emblem.jpg");
         background-size: cover;
@@ -112,4 +113,9 @@ background-attachment: fixed;
      width: fit-content;
     }
   }
- 
+
+
+  /* .dis{
+    display: none;
+  } */
+  
